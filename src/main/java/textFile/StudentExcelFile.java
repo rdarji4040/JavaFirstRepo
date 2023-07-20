@@ -13,6 +13,7 @@ import java.util.Scanner;
 
 public class StudentExcelFile {
     public static void main(String[] args) {
+
         try {
             // Read the .xlsx / .xls file
             File file = new File("C:\\Users\\rdarj\\Downloads\\students.xlsx");
@@ -91,7 +92,7 @@ public class StudentExcelFile {
             System.out.println("Successfully Saved to the excel file!!");
 
         } catch (Exception e) {
-            System.err.println("Error is: " + e.getMessage());
+            System.out.println("Error is: " + e.getMessage());
         }
     }
 }
